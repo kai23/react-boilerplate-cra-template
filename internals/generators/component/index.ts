@@ -44,12 +44,6 @@ export const componentGenerator: PlopGeneratorConfig = {
     },
     {
       type: 'confirm',
-      name: ComponentProptNames.wantStyledComponents,
-      default: true,
-      message: 'Do you want to use styled-components?',
-    },
-    {
-      type: 'confirm',
       name: ComponentProptNames.wantTranslations,
       default: false,
       message:
